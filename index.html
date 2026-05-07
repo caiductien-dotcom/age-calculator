@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator - CDN Version</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Age Calculator</h1>
+        
+        <div class="input-group">
+            <label>Enter your birth date:</label>
+            <input type="text" id="birthdate" placeholder="Chọn ngày sinh...">
+            <button id="calculate-btn">Calculate</button>
+        </div>
+
+        <div id="result" class="result-box">
+            </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
